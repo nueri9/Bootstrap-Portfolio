@@ -1,3 +1,5 @@
+/*general*/
+
 body {
     background-image: url("../images/white-waves.png");
 }
@@ -12,6 +14,9 @@ nav {
     padding: 10px 20px 10px 20px;
     font-weight: bold;
 }
+
+
+/*index.html*/
 
 #content {
     border: 1px solid #dddddd;
@@ -45,6 +50,9 @@ img {
     margin: 20px 0px 20px 20px;
 }
 
+
+/*sticky footer with calc()*/
+
 .main_container {
     min-height: calc(100vh - 70px);
 }
@@ -64,3 +72,6 @@ img {
     color: white;
     text-align: center;
 }
+
+
+/*portfolio*/

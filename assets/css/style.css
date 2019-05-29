@@ -99,22 +99,6 @@
     }
     /*contact*/
     
-    #row2,
-    #row4,
-    #row6 {
-        margin: 0 20px 0 20px;
-        padding-top: 20px;
-    }
-    
-    #row3,
-    #row5,
-    #row7 {
-        margin: 0 20px 0 20px;
-        border: 1px solid #dddddd;
-        padding: 10px 0 10px 10px;
-    }
-    
-    #row7 {
-        height: 250px;
-        margin-bottom: 50px;
+    .form_margins {
+        margin: 20px;
     }

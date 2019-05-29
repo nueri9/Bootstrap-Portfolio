@@ -11,21 +11,25 @@
 
 <!--nav bar using a .navbar wrapping for color scheme-->
 <nav class="navbar navbar-light" style="background-color:white">
-    <div class="nav_container">
-        <span class="name">Nueri Q.</span>
+    <div class="container">
+        <div class="nav_container">
+            <span class="name">Nueri Q.</span>
 
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About |</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio |</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
 
-        </ul>
+
+
+            </ul>
+        </div>
     </div>
 
 </nav>
@@ -34,35 +38,27 @@
 
 <body>
     <div class="main_container">
-
         <div class="container" id="content">
-            <div class="row" id="row1">
-                <!--col-lg- is used because this yields a max container width of 960px-->
-                <div class="col-lg-12" id="title_style">Contact</div>
-            </div>
-            <div class="row" id="row2">
-                <div class="col-lg-">Name</div>
-            </div>
-            <div class="row" id="row3">
-                <div class="col-lg-">Nueri Quasem</div>
-            </div>
+            <form class="form_margins">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Nueri Quasem">
+                </div>
+                <!--Email-->
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="nueri.nueri@outlook.com">
+                </div>
 
-            <div class="row" id="row4">
-                <div class="col-lg-">Email</div>
-            </div>
-            <div class="row" id="row5">
-                <div class="col-lg-">nueri.nueri@gmail.com</div>
-            </div>
-
-            <div class="row" id="row6">
-                <div class="col-lg-">Message</div>
-            </div>
-
-            <div class="row" id="row7">
-                <div class="col-lg-"></div>
-            </div>
-
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+            </form>
         </div>
+
+
 
 
     </div>
